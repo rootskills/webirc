@@ -1,8 +1,8 @@
-const express = require('express'),
-    http = require('http'),
-    irc = require('node-irc'),
-    app = express(),
-    server = http.createServer(app);
+const express = require('express');
+const http = require('http');
+const irc = require('node-irc');
+const app = express();
+const server = http.createServer(app);
 
 /*
   Iniciar e Configurar o Express
