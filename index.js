@@ -16,4 +16,4 @@ app.listen(3000);
 /*
   Carregar o Socket.io e o Protocolo de IRC
 */
-require('./lib/server.js')(server);
+require('./lib/server.js');
