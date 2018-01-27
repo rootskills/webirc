@@ -9,7 +9,8 @@ var app = express();
 /*
   Iniciar o Servidor
 */
-var server = http.createServer(app).listen(process.env.PORT || 3000);
+var server = http.createServer(app);
+app.listen(3000);
 
 /*
   Carregar o Socket.io e o Protocolo de IRC
