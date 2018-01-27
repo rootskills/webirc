@@ -2,5 +2,13 @@
   "name": "webirc",
   "version": "0.0.1",
   "description": "IRC Client",
-  "dependencies": {}
+  "dependencies": {
+    "express": "/usr/lib/node_modules/express",
+    "socket.io": "/usr/lib/node_modules/socket.io",
+    "node-irc": "/usr/lib/node_modules/node-irc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rootskills/webirc.git"
+  }
 }
