@@ -1,15 +1,16 @@
-var express = require('express');
-var http = require('http').Server(app);
+const express = require('express'),
+    http = require('http'),
+    irc = require('node-irc'),
+    app = express(),
+    server = http.createServer(app);
 
 /*
   Iniciar e Configurar o Express
 */
-var app = express();
   app.use(express.static(__dirname + '/public'));
 /*
   Iniciar o Servidor
 */
-var server = http.createServer(app);
 app.listen(3000);
 
 /*
