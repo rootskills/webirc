@@ -6,7 +6,6 @@ var http = require('http').Server(app);
 */
 var app = express();
   app.use(express.static(__dirname + '/public'));
-  app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
 /*
   Iniciar o Servidor
 */
